@@ -7,7 +7,7 @@ on:
 
 env:
     PROJECT_ID:  ${{ secrets.GCP_PROJECT_ID }}
-    GKE_CLUSTER: ${{ secrets.my_cluster }}
+    GKE_CLUSTER: "my-cluster"
     GKE_REGION: "europe-west4"
     DEPLOYMENT_NAME: "mlops-app"
     REPOSITORY: "europe-west3-docker.pkg.dev/delta-spark-468711-t2/my-repo"
